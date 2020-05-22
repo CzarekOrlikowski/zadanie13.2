@@ -1,4 +1,6 @@
-public class Computer implements Comparable <Computer>{
+import java.util.Comparator;
+
+public class Computer implements Comparable<Computer> {
     private String name;
     private int cpu;
     private int memory;
